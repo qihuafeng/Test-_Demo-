@@ -11,5 +11,10 @@ public class StringTest {
 
         System.out.println(item);
 
+            String s = "";
+            System.out.println(s.isEmpty());
+
+
+
     }
 }

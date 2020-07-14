@@ -9,6 +9,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 import java.sql.SQLOutput;
+import java.util.HashMap;
+import java.util.Map;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -32,6 +34,17 @@ public class JunitTest {
     public void  idcard(){
         String idcard = "412825200007154974";
         System.out.println(idcard.length());
+    }
+    @Test
+    public void stringTest(){
+        String s = "";
+        System.out.println(s.isEmpty());
+
+    }
+    public void idsTest(){
+        Map<String,Object> map  = new HashMap<>();
+        String ids = "key";
+
     }
 
 
