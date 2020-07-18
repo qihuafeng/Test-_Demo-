@@ -1,6 +1,6 @@
 package com.example.test.entity;
 
-public class Student {
+public class Student implements  Cloneable{
     private  String name;
     private String sex;
     private  Integer age;
@@ -36,6 +36,11 @@ public class Student {
                 ", sex='" + sex + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public static void main(String[] args) throws CloneNotSupportedException {
+        Student s = new Student();
+        s.clone();
     }
 
 }

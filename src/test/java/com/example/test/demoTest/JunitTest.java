@@ -1,5 +1,6 @@
 package com.example.test.demoTest;
 
+import com.example.test.entity.Student;
 import com.example.test.entity.User;
 import com.example.test.service.UserService;
 import org.junit.Test;
@@ -44,6 +45,12 @@ public class JunitTest {
     public void idsTest(){
         Map<String,Object> map  = new HashMap<>();
         String ids = "key";
+
+    }
+    public void cloneTest(){
+        Student s = new Student();
+        s.getClass();
+
 
     }
 
