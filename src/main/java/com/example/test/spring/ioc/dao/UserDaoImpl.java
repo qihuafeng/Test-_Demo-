@@ -1,5 +1,8 @@
-package com.example.test.ioc.dao;
+package com.example.test.spring.ioc.dao;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class UserDaoImpl implements UserDao{
 
     @Override

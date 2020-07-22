@@ -1,8 +1,8 @@
-package com.example.test.ioc;
+package com.example.test.spring.ioc;
 
-import com.example.test.ioc.dao.UserDaoImpl;
-import com.example.test.ioc.service.UserService;
-import com.example.test.ioc.service.UserServiceImpl;
+import com.example.test.spring.ioc.dao.UserDaoImpl;
+import com.example.test.spring.ioc.service.UserService;
+import com.example.test.spring.ioc.service.UserServiceImpl;
 
 public class UserTest {
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
-package com.example.test.ioc.service;
+package com.example.test.spring.ioc.service;
 
-import com.example.test.ioc.dao.UserDao;
-import com.example.test.ioc.dao.UserDaoImpl;
-import com.example.test.ioc.dao.UserDaoMysqlImpl;
+import com.example.test.spring.ioc.dao.UserDao;
 
 public class UserServiceImpl implements UserService{
 

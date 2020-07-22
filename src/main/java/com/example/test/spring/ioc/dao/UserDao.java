@@ -1,4 +1,4 @@
-package com.example.test.ioc.dao;
+package com.example.test.spring.ioc.dao;
 
 public interface UserDao {
 
