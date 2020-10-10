@@ -1,10 +1,10 @@
-package com.example.test.javaFeatures.extendAndInterface;
+package com.example.test.javaFeatures.extendAndInterface.interfaceTest;
 
 /**
  * @Author ShineQi
  * @Date 2020/7/22 11:12
  */
-public class AllInterfaceImpl implements  AllInterface,ThreePartInterface{
+public class AllInterfaceImpl implements  AllInterface, ThreePartInterface {
     @Override
     public void eatMilk() {
 

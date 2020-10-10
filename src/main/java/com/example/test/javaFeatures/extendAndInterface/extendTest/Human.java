@@ -1,4 +1,4 @@
-package com.example.test.javaFeatures.extendAndInterface;
+package com.example.test.javaFeatures.extendAndInterface.extendTest;
 
 /**
  * @Author ShineQi

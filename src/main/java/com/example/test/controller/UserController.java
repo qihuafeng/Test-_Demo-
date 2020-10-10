@@ -17,9 +17,10 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/index")
+    @ResponseBody
     public String index() {
         //git分支测试
-        return "helloIndex";
+        return "helloIndex测试！！！";
     }
 
     @ResponseBody
