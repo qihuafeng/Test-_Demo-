@@ -1,7 +1,7 @@
 package com.example.test.tiNet.stringTest;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
 
 /**
  * @Author ShineQi
@@ -81,6 +81,9 @@ public class StringAPI {
 //        CollectionUtils.isEmpty();
 //        page分页demo
 //        StringUtils
-
+        String s = null;
+        String s1  ="";
+        System.out.println(StringUtils.isNotBlank(s));
+        System.out.println(StringUtils.isNotBlank(s1));
     }
 }
