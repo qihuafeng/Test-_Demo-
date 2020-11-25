@@ -1,6 +1,8 @@
 package com.example.test.tiNet.listSortDemo;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 /**
  * @Author ShineQi
@@ -15,20 +17,21 @@ public class Test {
             int len = Math.min(spa.length, spb.length);
             for(int i = 0; i < len; i++) {
                 if(!spa[i].equals(spb[i])) {
+                    int flag = Integer.compare(Integer.parseInt(spa[i]), Integer.parseInt(spb[i]));
                     return Integer.compare(Integer.parseInt(spa[i]), Integer.parseInt(spb[i]));
                 }
             }
             return Integer.compare(spa.length, spb.length);
         });
-        for(String a: data) {
-            System.out.print(a+ " ");
-        }
-        int x = Integer.compare(5,20);
-        int y = Integer.compare(20,5);
-        int z = Integer.compare(5,5);
-        System.out.println(x);
-        System.out.println(y);
-        System.out.println(z);
+//        for(String a: data) {
+//            System.out.print(a+ " ");
+//        }
+//        int x = Integer.compare(5,20);
+//        int y = Integer.compare(20,5);
+//        int z = Integer.compare(5,5);
+//        System.out.println(x);
+//        System.out.println(y);
+//        System.out.println(z);
     }
 
     //        Collections.sort(studentList, new Comparator<Student>() {
@@ -45,5 +48,7 @@ public class Test {
 //                return Integer.compare(so1.length,so2.length);
 //            }
 //        });
+
+
 
 }
