@@ -36,6 +36,8 @@ public class CallByValue {
 
     public static void main(String[] args) {
 
+        // String Integer 都是用 final修饰的
+
         List<Integer> list = new ArrayList<>();
         list.add(1998);
         list.add(07);
@@ -52,7 +54,7 @@ public class CallByValue {
             System.out.println(i);
         }
 
-        Integer ls = 2;
+        Integer ls = new Integer(2);
         test1(ls);
         System.out.println(ls);
     }
