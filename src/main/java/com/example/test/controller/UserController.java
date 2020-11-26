@@ -32,4 +32,15 @@ public class UserController {
         return user;
 
     }
+
+    @ResponseBody
+    @RequestMapping(value = "/insert",method = RequestMethod.GET)
+    public String insert(){
+        User user = new User(2,"瑞文","123456","1556265");
+        int i = userService.insert(user);
+        if(i==1){
+            return "插入·成功";
+        }
+        return null;
+    }
 }

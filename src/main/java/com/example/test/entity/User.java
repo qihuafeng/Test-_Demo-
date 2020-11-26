@@ -9,6 +9,13 @@ public class User {
 
     private String phone;
 
+    public User(Integer userId, String userName, String password, String phone) {
+        this.userId = userId;
+        this.userName = userName;
+        this.password = password;
+        this.phone = phone;
+    }
+
     @Override
     public String toString() {
         return "User{" +
