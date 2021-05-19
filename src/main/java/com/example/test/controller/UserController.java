@@ -16,7 +16,7 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @RequestMapping("/index")
+    @RequestMapping("/index1111")
     @ResponseBody
     public String index() {
         //git分支测试
