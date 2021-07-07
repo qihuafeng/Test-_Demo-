@@ -1,4 +1,4 @@
-package com.example.test.suanfa;
+package com.example.test.leetcode.suanfa;
 
 import java.util.Scanner;
 

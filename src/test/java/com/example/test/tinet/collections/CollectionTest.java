@@ -1,4 +1,4 @@
-package com.example.test.tiNet.collections;
+package com.example.test.tinet.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;

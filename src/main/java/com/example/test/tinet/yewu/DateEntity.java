@@ -1,4 +1,4 @@
-package com.example.test.tiNet.yewu;
+package com.example.test.tinet.yewu;
 
 /**
  * @Author ShineQi

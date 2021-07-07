@@ -1,6 +1,4 @@
-package com.example.test.tiNet.javaReflect;
-
-import java.util.Date;
+package com.example.test.tinet.javaReflect;
 
 /**
  * @Author ShineQi

@@ -1,4 +1,4 @@
-package com.example.test.tiNet.listSortDemo;
+package com.example.test.tinet.listSortDemo;
 
 import java.util.*;
 
