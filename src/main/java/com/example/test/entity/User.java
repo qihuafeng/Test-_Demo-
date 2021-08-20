@@ -1,5 +1,8 @@
 package com.example.test.entity;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class User {
     private Integer userId;
 
@@ -24,6 +27,16 @@ public class User {
                 ", password='" + password + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
+    }
+
+    public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
+        map.put("1234","hhhh");
+        map.put("5678","yyy");
+        map.put("1234","zzzz");
+        for(String key :map.keySet()){
+            System.out.println(key);
+        }
     }
 
     public Integer getUserId() {
