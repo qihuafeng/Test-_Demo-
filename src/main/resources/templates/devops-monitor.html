@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>天润融通 VNC-devops管理</title>
+    <meta charset="utf-8">
+
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <style type="text/css">
+        .spot ul {
+            list-style: none;
+            margin: 0px;
+        }
+
+        .bar {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .pad {
+            border: 1px solid #F1EDED;
+            padding: 5px 10px 10px 15px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            margin-top: 5px;
+        }
+
+        .header {
+            height: 45px;
+        }
+
+        .angle {
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+        }
+
+        .size {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<!--blue-->
+<div class="panel panel-primary angle">
+    <div class="panel-heading header angle">
+        <h3 class="panel-title text-center size">
+            <a href="/devops-development">
+                <button type="button" class="btn btn-primary ">
+                    <span class="glyphicon glyphicon-search"></span>研发管理
+                </button>
+            </a>
+            <a href="/devops-monitor">
+                <button type="button" class="btn btn-primary ">
+                    <span class="glyphicon glyphicon-search"></span><font color="red">监控管理</font>
+                </button>
+            </a>
+            <a href="/devops-vnc">
+                <button type="button" class="btn btn-primary ">
+                    <span class="glyphicon glyphicon-search"></span>台账管理
+                </button>
+            </a>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="bar col-md-4">
+                <div class="pad">
+                    <h4>Prometheus</h4>
+
+                    <p>http://172.30.0.20:9090</p>
+                    <a href="http://172.30.0.20:9090" target="_blank">
+                        <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-search"></span>
+                            浏览
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="bar col-md-4">
+                <div class="pad">
+                    <h4>Grafana</h4>
+
+                    <p>http://47.103.56.108:3000</p>
+                    <a href="http://47.103.56.108:3000" target="_blank">
+                        <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-search"></span>
+                            浏览
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bar col-md-4">
+                <div class="pad">
+                    <h4>监控宝</h4>
+
+                    <p>monitoring.cloudwise.com</p>
+                    <a href="https://monitoring.cloudwise.com" target="_blank">
+                        <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-search"></span>
+                            浏览
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="bar col-md-4">
+                <div class="pad">
+                    <h4>Pinpoint(阿里云)</h4>
+
+                    <p>http://106.14.247.26:8079</p>
+                    <a href="http://106.14.247.26:8079" target="_blank">
+                        <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-search"></span>
+                            浏览
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="bar col-md-4">
+                <div class="pad">
+                    <h4>Pinpoint(AWS)</h4>
+
+                    <p>http://52.81.159.203:8079</p>
+                    <a href="http://52.81.159.203:8079" target="_blank">
+                        <button type="button" class="btn btn-primary "><span class="glyphicon glyphicon-search"></span>
+                            浏览
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        </br>
+    </div>
+</div>
+
+</body>
+</html>

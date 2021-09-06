@@ -1,3 +1,4 @@
+/*
 package com.example.test.redis;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -23,10 +24,12 @@ import redis.clients.jedis.ScanParams;
 import redis.clients.jedis.ScanResult;
 import redis.clients.jedis.Tuple;
 
+*/
 /**
  * @Author: zhoujiang
  * @Date: 2021/5/13 下午2:10
- */
+ *//*
+
 @Service
 public class RedisService {
 
@@ -48,9 +51,11 @@ public class RedisService {
             "return val;";
     private static String GET_AND_DEL_LUA_SCRIPT_SHA;
 
-    /**
+    */
+/**
      * 根据库号 封装redis的连接池
-     */
+     *//*
+
     private static Map<Integer, JedisPool> redisPoolMap = new ConcurrentHashMap<>(2);
 
 //    private static Map<Integer, RedisTemplate> redisTemplateMap = new ConcurrentHashMap<>(2);
@@ -109,12 +114,14 @@ public class RedisService {
 
     }
 
-    /**
+    */
+/**
      * 根据 库号 得到对应的jedis 记录
      *
      * @param db
      * @return
-     */
+     *//*
+
     private Jedis getJedisByRedisPoolMap(int db) {
         // 根据库号 得到redis 的连接池
         JedisPool jedisPool = redisPoolMap.get(db);
@@ -779,14 +786,16 @@ public class RedisService {
         return result;
     }
 
-    /**
+    */
+/**
      * 判断member在zset中是否存在
      *
      * @param key
      * @param member
      * @param db
      * @return
-     */
+     *//*
+
 
     public Double zscore(String key, String member, int db) {
         Jedis jedis = this.getJedisByRedisPoolMap(db);
@@ -941,8 +950,10 @@ public class RedisService {
             logger.info("[convertAndSendAnother] " + channel + " " + json);
             jedis.publish(channel, json);
             // 消息同步
-            /*BindNumV3Service bindNumV3Service = (BindNumV3Service) ContextUtil.getContext().getBean("bindNumV3Service");
-            bindNumV3Service.convertMsgAnother(channel, JSON.toJSONString(message));*/
+            */
+/*BindNumV3Service bindNumV3Service = (BindNumV3Service) ContextUtil.getContext().getBean("bindNumV3Service");
+            bindNumV3Service.convertMsgAnother(channel, JSON.toJSONString(message));*//*
+
         } catch (JsonProcessingException e) {
             logger.error("RedisService.convertAndSendAnother  channel :{} message:{} error : {}", channel, message, e);
             return false;
@@ -1011,3 +1022,4 @@ public class RedisService {
         return result;
     }
 }
+*/

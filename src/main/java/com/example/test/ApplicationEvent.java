@@ -1,3 +1,4 @@
+/*
 package com.example.test;
 
 import com.example.test.executor.ProducerEvent;
@@ -8,10 +9,12 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+*/
 /**
  * @Author ShineQi
  * @Date 2021/7/6 18:10
- */
+ *//*
+
 @Slf4j
 @Component
 public class ApplicationEvent implements ApplicationRunner {
@@ -39,3 +42,4 @@ public class ApplicationEvent implements ApplicationRunner {
 
     }
 }
+*/

@@ -7,9 +7,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/index001")
+    @RequestMapping("/devops-development")
     public String sayHello(){
         String s = "name";
-        return "index";
+        return "devops-development";
+    }
+
+    @RequestMapping("/devops-monitor")
+    public String sayHello1(){
+        return "devops-monitor";
+    }
+
+
+    @RequestMapping("/devops-vnc")
+    public String sayHello2(){
+        return "devops-vnc";
     }
 }
